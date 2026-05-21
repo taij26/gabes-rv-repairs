@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* --- Google Fonts Import --- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Dancing+Script:wght@600;700&family=Cinzel:wght@600;700;800&display=swap');
 
 /* --- Modern Reset & Core Variables --- */
 :root {
@@ -288,26 +288,23 @@ a {
   object-fit: contain;
 }
 
-.logo-text {
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.35rem;
-  letter-spacing: -0.03em;
-  background: linear-gradient(135deg, #ffffff 30%, var(--text-muted) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
+.brand-logo-svg {
+  width: 195px;
+  height: 62px;
+  display: block;
+  transition: var(--transition-fast);
 }
 
-.logo-text span {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--primary);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  -webkit-text-fill-color: initial;
+.footer .brand-logo-svg {
+  width: 175px;
+  height: 56px;
+}
+
+@media (max-width: 480px) {
+  .brand-logo-svg {
+    width: 145px;
+    height: 46px;
+  }
 }
 
 .nav-links {
@@ -381,8 +378,9 @@ a {
   .nav-links {
     gap: 16px;
   }
-  .logo-text {
-    font-size: 1.15rem;
+  .brand-logo-svg {
+    width: 165px;
+    height: 52px;
   }
   .phone-num {
     font-size: 0.95rem;

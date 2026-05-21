@@ -26,23 +26,21 @@
   <nav class="navbar" id="main-navbar">
     <div class="container">
       <a href="#" class="logo-container" id="nav-logo">
-        <!-- Premium SVG Fallback Logo representing an RV and Professional tools -->
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad)" stroke-width="2.5" style="filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.4)); flex-shrink: 0;">
-          <defs>
-            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#f97316" />
-              <stop offset="100%" stop-color="#ea580c" />
-            </linearGradient>
-          </defs>
-          <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3C13.2 7.1 12.3 7 11.5 7H2c-1.1 0-2 .9-2 2v7c0 1.1.9 2 2 2h2m15-1v2" />
-          <circle cx="7" cy="17" r="2" />
-          <circle cx="16" cy="17" r="2" />
-          <path d="M7 11h5" stroke-dasharray="2,2" />
-          <path d="M11 11l3-3m0 0a1.2 1.2 0 111.7 1.7l-3 3" />
+        <svg viewBox="0 0 280 90" fill="none" class="brand-logo-svg" style="filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.2)); flex-shrink: 0;">
+          <style>
+            .logo-g { font-family: 'Cinzel', 'Georgia', serif; font-weight: 700; fill: #ef4444; font-size: 68px; }
+            .logo-text-serif { font-family: 'Cinzel', 'Georgia', serif; font-weight: 700; fill: #ffffff; font-size: 25px; letter-spacing: 1px; }
+            .logo-text-script { font-family: 'Dancing Script', 'Brush Script MT', cursive; font-size: 21px; fill: #ffffff; }
+            .logo-text-bold { font-family: 'Outfit', sans-serif; font-weight: 900; fill: #ef4444; font-size: 19px; letter-spacing: 4px; }
+          </style>
+          <!-- Main G and ABRIEL'S -->
+          <text x="10" y="58" class="logo-g">G</text>
+          <text x="68" y="32" class="logo-text-serif">ABRIEL’S</text>
+          <!-- Mobile RV Service Inc -->
+          <text x="68" y="55" class="logo-text-script">Mobile RV Service Inc</text>
+          <!-- RV REPAIR -->
+          <text x="69" y="80" class="logo-text-bold">RV REPAIR</text>
         </svg>
-        <div class="logo-text">
-          Gabriel's <span>Mobile RV Repair</span>
-        </div>
       </a>
 
       <!-- Desktop Links -->
@@ -59,7 +57,7 @@
       <div class="nav-actions">
         <div class="phone-action">
           <span class="phone-label">Direct Line</span>
-          <a href="tel:+15065550199" class="phone-num" id="btn-nav-call">(506) 555-0199</a>
+          <a href="tel:+15069552919" class="phone-num" id="btn-nav-call">(506) 955-2919</a>
         </div>
         <a href="#booking" class="btn btn-emergency" id="btn-nav-dispatch">🚨 Dispatch Tech</a>
       </div>
@@ -93,9 +91,9 @@
           <p class="hero-desc">Don't ruin your vacation hauling your rig to a dealership to wait weeks for minor repairs. Gabriel is a certified senior technician bringing parts, tools, and expert repairs directly to your campground or driveway.</p>
           
           <div class="hero-actions">
-            <a href="tel:+15065550199" class="btn btn-emergency" id="hero-btn-emergency">
+            <a href="tel:+15069552919" class="btn btn-emergency" id="hero-btn-emergency">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              Call Hotline: (506) 555-0199
+              Call Hotline: (506) 955-2919
             </a>
             <a href="#booking" class="btn btn-secondary" id="hero-btn-schedule">Schedule Routine Service</a>
           </div>
@@ -414,7 +412,7 @@
               </div>
               <div class="form-group">
                 <label for="booking-phone">Phone Number:</label>
-                <input type="tel" class="form-input" id="booking-phone" placeholder="(506) 555-0100" required>
+                <input type="tel" class="form-input" id="booking-phone" placeholder="(506) 955-2919" required>
               </div>
               <div class="form-group">
                 <label for="booking-email">Email Address:</label>
@@ -455,9 +453,9 @@
             <div class="emergency-info-box">
               <h4>🚨 Priority Roadside Dispatch</h4>
               <p>For slide outs stuck open, major waterline ruptures, or immediate towing threats. High-priority dispatch will contact you in minutes.</p>
-              <a href="tel:+15065550199" class="emergency-phone-btn" id="btn-emergency-call">
+              <a href="tel:+15069552919" class="emergency-phone-btn" id="btn-emergency-call">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                (506) 555-0199
+                (506) 955-2919
               </a>
             </div>
 
@@ -468,7 +466,7 @@
               </div>
               <div class="form-group">
                 <label for="emergency-phone">Immediate Contact Phone:</label>
-                <input type="tel" class="form-input" id="emergency-phone" placeholder="(506) 555-0100" required>
+                <input type="tel" class="form-input" id="emergency-phone" placeholder="(506) 955-2919" required>
               </div>
               <div class="form-group form-grid-full">
                 <label for="emergency-location">Exact Location (Campground / Roadside Details):</label>
@@ -654,22 +652,21 @@
         <!-- Col 1: Brand -->
         <div class="footer-col footer-info">
           <a href="#" class="logo-container" style="margin-bottom: 20px;">
-            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad-f)" stroke-width="2.5">
-              <defs>
-                <linearGradient id="logo-grad-f" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#f97316" />
-                  <stop offset="100%" stop-color="#ea580c" />
-                </linearGradient>
-              </defs>
-              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3C13.2 7.1 12.3 7 11.5 7H2c-1.1 0-2 .9-2 2v7c0 1.1.9 2 2 2h2m15-1v2" />
-              <circle cx="7" cy="17" r="2" />
-              <circle cx="16" cy="17" r="2" />
-              <path d="M7 11h5" stroke-dasharray="2,2" />
-              <path d="M11 11l3-3m0 0a1.2 1.2 0 111.7 1.7l-3 3" />
+            <svg viewBox="0 0 280 90" fill="none" class="brand-logo-svg" style="filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.2)); flex-shrink: 0;">
+              <style>
+                .logo-g-f { font-family: 'Cinzel', 'Georgia', serif; font-weight: 700; fill: #ef4444; font-size: 68px; }
+                .logo-text-serif-f { font-family: 'Cinzel', 'Georgia', serif; font-weight: 700; fill: #ffffff; font-size: 25px; letter-spacing: 1px; }
+                .logo-text-script-f { font-family: 'Dancing Script', 'Brush Script MT', cursive; font-size: 21px; fill: #ffffff; }
+                .logo-text-bold-f { font-family: 'Outfit', sans-serif; font-weight: 900; fill: #ef4444; font-size: 19px; letter-spacing: 4px; }
+              </style>
+              <!-- Main G and ABRIEL'S -->
+              <text x="10" y="58" class="logo-g-f">G</text>
+              <text x="68" y="32" class="logo-text-serif-f">ABRIEL’S</text>
+              <!-- Mobile RV Service Inc -->
+              <text x="68" y="55" class="logo-text-script-f">Mobile RV Service Inc</text>
+              <!-- RV REPAIR -->
+              <text x="69" y="80" class="logo-text-bold-f">RV REPAIR</text>
             </svg>
-            <div class="logo-text" style="font-size: 1.15rem;">
-              Gabriel's <span>Mobile RV Repair</span>
-            </div>
           </a>
           <p>Gabriel's Mobile RV Repair Service Inc. is Atlantic Canada's premier campsite service provider, restoring camper comfort and travel safety on-site.</p>
           <div class="social-links">
@@ -715,7 +712,7 @@
             </li>
             <li>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span>Hotline: (506) 555-0199<br>Email: gabe@gabesrvrepair.com</span>
+              <span>Hotline: <a href="tel:+15069552919" style="color: inherit; text-decoration: none;">(506) 955-2919</a><br>Email: gabe@gabesrvrepair.com</span>
             </li>
             <li>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
